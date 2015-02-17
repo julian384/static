@@ -1,8 +1,7 @@
-application: static-website-generator
+application: static-website-engine
 version: 1
 runtime: php
 api_version: 1
-
 handlers:
 - url: /.*
-  script: helloworld.php
+  script: index.php
