@@ -6,7 +6,8 @@
   <body>
     <?php
       $Parsedown = new Parsedown();
-      echo $Parsedown->text(/content/_site/home.md); # prints: <p>Hello <em>Parsedown</em>!</p>
+		$text = file_get_contents('content/_site/home.md');
+      echo $Parsedown->text($text);
     ?>
   </body>
 </html>

@@ -1,5 +1,5 @@
-application: static-website-engine
-version: 1
+application: emerald-lattice-859
+version: 2
 runtime: php
 api_version: 1
 handlers:
